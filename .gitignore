@@ -1,0 +1,6 @@
+rsconnect/
+
+.DS_Store
+.Rhistory
+data.csv
+deploy.R
