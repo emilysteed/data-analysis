@@ -1,0 +1,7 @@
+library(rsconnect)
+
+rsconnect::setAccountInfo(name = NAME,
+                          token = TOKEN,
+                          secret = SECRET)
+
+rsconnect::deployApp("./")
